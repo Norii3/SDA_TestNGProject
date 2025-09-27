@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="Cross Browser Chrome">
+        <parameter name="username" value="admin"> </parameter>
+        <parameter name="password" value="admin123"> </parameter>
+        <classes>
+            <class name="tests.C14_CrossBrowserTesting">
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Cross Browser firefox">
+        <parameter name="browser" value="firefox"> </parameter>
+        <parameter name="username" value="admin"> </parameter>
+        <parameter name="password" value="admin123"> </parameter>
+        <classes>
+            <class name="tests.C14_CrossBrowserTesting">
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Cross Browser edge">
+        <parameter name="browser" value="edge"> </parameter>
+        <parameter name="username" value="admin"> </parameter>
+        <parameter name="password" value="admin123"> </parameter>
+        <classes>
+            <class name="tests.C14_CrossBrowserTesting">
+            </class>
+        </classes>
+    </test>
+</suite>

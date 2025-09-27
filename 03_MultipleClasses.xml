@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Suit Test">
+    <test verbose="2" preserve-order="true" name="Multiple classes1">
+        <classes>
+            <class name="tests.C07_Groups"> </class>
+            <class name="tests.C06_Description"> </class>
+            <class name="tests.C10_DependOnGroups"> </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Multiple classes2">
+        <classes>
+            <class name="tests.C07_Groups"> </class>
+            <class name="tests.C06_Description"> </class>
+        </classes>
+    </test>
+</suite>
